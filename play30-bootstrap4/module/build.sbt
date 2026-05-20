@@ -7,6 +7,7 @@ scalaVersion := "2.13.17"
 crossScalaVersions := Seq("2.13.17", "3.7.3")
 
 resolvers ++= Seq(
+  Resolver.mavenLocal,
   "scalaz-bintray" at "https://dl.bintray.com/scalaz/releases",
   "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/"
 )
