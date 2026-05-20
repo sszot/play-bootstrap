@@ -1,5 +1,4 @@
 jdk:
   - openjdk11
 install:
-  - cd core-play30 && sbt publishM2
-  - cd play30-bootstrap4/module && sbt publishM2
+  - (cd core-play30 && sbt publishM2) && (cd play30-bootstrap4/module && sbt publishM2)
